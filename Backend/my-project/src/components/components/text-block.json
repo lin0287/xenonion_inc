@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_text_blocks",
+  "info": {
+    "displayName": "Text-Block"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

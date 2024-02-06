@@ -1,0 +1,37 @@
+/* General carousel styling */
+.carousel-item {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the item area */
+}
+
+/* Styling for larger screens */
+@media (min-width: 992px) {
+  .carousel-item {
+    max-height: 600px; /* Larger max-height for larger screens */
+  }
+}
+
+/* Styling for medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-item {
+    max-height: 500px; /* Moderate max-height for medium screens */
+  }
+}
+
+/* Styling for small screens */
+@media (max-width: 767px) {
+  .carousel-item {
+    max-height: 300px; /* Smaller max-height for small screens */
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Caption background for readability */
+    border-radius: 5px;
+    padding: 10px;
+  }
+}

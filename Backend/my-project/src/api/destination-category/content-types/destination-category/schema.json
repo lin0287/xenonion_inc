@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destination_categories",
+  "info": {
+    "singularName": "destination-category",
+    "pluralName": "destination-categories",
+    "displayName": "Destination Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
